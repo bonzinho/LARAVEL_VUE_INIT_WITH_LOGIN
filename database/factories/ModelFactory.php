@@ -23,8 +23,8 @@ $factory->define(Candi\User::class, function (Faker\Generator $faker) {
     ];
 });
 
-$factory->state(\Candi\User::class, 'admin', function(Faker\Generator $faker) {
+$factory->state(Candi\User::class, 'admin', function(Faker\Generator $faker) {
    return [
-       'role' => \Candi\User::ROLE_ADMIN,
+       'role' => Candi\User::ROLE_ADMIN,
    ];
 });

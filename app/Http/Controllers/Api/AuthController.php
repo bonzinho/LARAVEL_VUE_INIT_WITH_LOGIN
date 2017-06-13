@@ -3,7 +3,6 @@
 namespace Candi\Http\Controllers\Api;
 
 use Candi\Http\Controllers\Controller;
-use Candi\User;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;

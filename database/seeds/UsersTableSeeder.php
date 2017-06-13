@@ -11,7 +11,7 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(\Candi\User::class, 1)
+        factory(Candi\User::class, 1)
             ->states('admin')
             ->create([
                 'name' => 'Vitor Bonzinho',

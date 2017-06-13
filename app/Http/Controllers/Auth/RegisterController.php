@@ -2,10 +2,10 @@
 
 namespace Candi\Http\Controllers\Auth;
 
-use Candi\User;
 use Candi\Http\Controllers\Controller;
-use Illuminate\Support\Facades\Validator;
+use Candi\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
+use Illuminate\Support\Facades\Validator;
 
 class RegisterController extends Controller
 {
@@ -58,7 +58,7 @@ class RegisterController extends Controller
      * Create a new user instance after a valid registration.
      *
      * @param  array  $data
-     * @return User
+     * @return \Candi\User
      */
     protected function create(array $data)
     {
